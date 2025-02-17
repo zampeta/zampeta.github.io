@@ -48,7 +48,7 @@ h1 {
     margin: 15px 0px 15px 0px;
 }
 
-#intro, #experience, #education, #skills, #capstone {
+#intro, #experience, #education, #skills, #publications #conference #awards {
     scroll-snap-align: start;
 }
 
