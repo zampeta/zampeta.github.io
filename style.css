@@ -93,7 +93,7 @@ h1 {
 .grid_experience, .grid_capstone {
     grid-template-columns: 1fr;
 }
-.grid_education, .grid_skills, .grid_publications, {
+.grid_education, .grid_skills, {
     grid-template-columns: 1fr 1fr;
     & .container:nth-child(1) {
         grid-column: 1/-1;
