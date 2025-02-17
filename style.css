@@ -52,7 +52,7 @@ h1 {
     scroll-snap-align: start;
 }
 
-.grid_intro, .grid_experience, .grid_education, .grid_skills, .grid_pubilications, .grid_conference, .grid_awards {
+.grid_intro, .grid_experience, .grid_education, .grid_skills, .grid_pubilications, .grid_conference, .grid_awards, {
     display: grid;
     grid-gap: 25px;
 }
@@ -93,7 +93,7 @@ h1 {
 .grid_experience, .grid_capstone {
     grid-template-columns: 1fr;
 }
-.grid_education, .grid_skills {
+.grid_education, .grid_skills, .grid_publications, {
     grid-template-columns: 1fr 1fr;
     & .container:nth-child(1) {
         grid-column: 1/-1;
@@ -179,7 +179,7 @@ h1 {
 
 
 @media (max-width: 720px) {
-    .grid_intro, .grid_education, .grid_skills {
+    .grid_intro, .grid_education, .grid_skills, grid_publications, {
         grid-template-columns: 1fr;
     }
     .grid_intro .container:nth-child(2) {
