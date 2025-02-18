@@ -52,7 +52,7 @@ h1 {
     scroll-snap-align: start;
 }
 
-.grid_intro, .grid_experience, .grid_education, .grid_skills, .grid_pubilications, .grid_conference, .grid_awards, {
+.grid_intro, .grid_experience, .grid_education, .grid_skills, {
     display: grid;
     grid-gap: 25px;
 }
