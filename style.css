@@ -1,7 +1,7 @@
 html {
     scroll-behavior: smooth;
     -webkit-tap-highlight-color: transparent;
-    scroll-snap-type: y mandatory;
+    scroll-snap-type: y proximity;
 }
 
 :root {
@@ -48,11 +48,11 @@ h1 {
     margin: 15px 0px 15px 0px;
 }
 
-#intro, #experience, #education, #skills, #publications #conference #awards {
+#intro, #experience, #education, #skills, #publications, #conference, #awards, #workshops, #scienceoutreach {
     scroll-snap-align: start;
 }
 
-.grid_intro, .grid_experience, .grid_education, .grid_skills, {
+.grid_intro, .grid_experience, .grid_education, .grid_skills {
     display: grid;
     grid-gap: 25px;
 }
@@ -93,7 +93,7 @@ h1 {
 .grid_experience, .grid_capstone {
     grid-template-columns: 1fr;
 }
-.grid_education, .grid_skills, {
+.grid_education, .grid_skills {
     grid-template-columns: 1fr 1fr;
     & .container:nth-child(1) {
         grid-column: 1/-1;
@@ -179,7 +179,7 @@ h1 {
 
 
 @media (max-width: 720px) {
-    .grid_intro, .grid_education, .grid_skills, grid_publications, {
+    .grid_intro, .grid_education, .grid_skills, .grid_publications {
         grid-template-columns: 1fr;
     }
     .grid_intro .container:nth-child(2) {
